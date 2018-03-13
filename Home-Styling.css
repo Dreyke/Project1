@@ -1,0 +1,182 @@
+/* change fonts */
+html,h1,h2,h3,h4,h5,h6,a,p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #D5DBE3;
+}
+
+/* navigation bar styling */
+.navbar {
+    background: #1A2E53;
+}
+
+.nav-link, .navbar-brand {
+    color:#D5DBE3;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #0A596E;
+}
+.navbar-brand:hover {
+    color: #0A596E;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/*header style*/
+/* image is from unsplash */
+.header {
+    position: relative;
+    background-image: url(background-image7-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244,244,244,0.79);
+}
+
+/* button styling */
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description p {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.description button {
+    border: 1px solid #1A2E53;
+    background: #1A2E53;
+    color: #D5DBE3;
+}
+
+/* about styling */
+.about {
+    margin: 5em 0;
+    padding: 1em;
+    position: relative;
+}
+.about h1 {
+    color: #1A2E53;
+    margin: 1em;
+}
+.about img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about span {
+    display: block;
+    color: #1A2E53;
+    position: absolute;
+    left: 115px;
+}
+.about .desc {
+    padding: 2em;
+    border-left: 4px solid #1A2E53;
+}
+.about .desc h3 {
+    color: #1A2E53;
+}
+.about .desc p {
+    line-height: 2;
+    color: #1A2E53;
+}
+
+/* portfolio styling */
+.projects {
+    padding: 1em;
+    position: relative;
+}
+
+.projects h1 {
+    color: #1A2E53;
+    margin: 0.5em;
+}
+
+
+.projects {
+    background-color: #D3D3D3;
+}
+
+.card-deck {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card-body .card-text {
+    color: #1A2E53;
+}
+
+/* footer styling */
+.footer a {
+    color: #D5DBE3;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: #1A2E53;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding: .30rem;
+}
+
+.footer-nav-email {
+    text-align: center;
+    line-height: normal;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    letter-spacing: 3.7px;
+    color: #D5DBE3;
+}
+
+.footer-nav-phone {
+    text-align: left;
+    line-height: normal;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    letter-spacing: 3.7px;
+    color: #D5DBE3;
+}
+
+.footer-nav-github {
+    text-align: right;
+    line-height: normal;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    letter-spacing: 3.7px;
+    color: #D5DBE3;
+}
